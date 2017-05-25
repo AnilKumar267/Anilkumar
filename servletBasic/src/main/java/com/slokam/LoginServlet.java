@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class LoginServlet extends HttpServlet{
-	
+	//first comment
 	public static List<String> activeUserList = new ArrayList<String>(); 
 	
 	@Override
