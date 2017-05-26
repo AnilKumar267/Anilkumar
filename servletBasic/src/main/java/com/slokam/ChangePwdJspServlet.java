@@ -20,7 +20,10 @@ public class ChangePwdJspServlet extends HttpServlet{
 		String m = arg0.getParameter("old");
 		String m1 = arg0.getParameter("new");
 		
-		//this comment is my updation
+
+		//this for checkking out check
+		//this is karthik
+		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/f11details","root","root");
@@ -38,7 +41,6 @@ public class ChangePwdJspServlet extends HttpServlet{
 		
 		arg0.setAttribute("message", "u r pwd changing success");
 		arg0.getRequestDispatcher("Login.jsp").forward(arg0, arg1);
-	
-		
 	}
 }
+//program ended here
