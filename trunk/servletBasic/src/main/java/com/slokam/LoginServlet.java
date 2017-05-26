@@ -22,7 +22,9 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet{
 	//first comment
 	public static List<String> activeUserList = new ArrayList<String>(); 
-	
+	//hello
+	//mamatha
+	//vanshika reddy
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 	
