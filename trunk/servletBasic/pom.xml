@@ -39,7 +39,7 @@
 			<artifactId>hibernate-annotations</artifactId>
 			<version>3.5.6-Final</version>
 		</dependency>
-
+<!-- commit the code -->
 	</dependencies>
 	<build>
 		<finalName>servletBasic</finalName>
