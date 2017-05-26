@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class DeleteServlet extends HttpServlet{
-
+//DeleterServletComments
 	@Override
 	public void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 		
