@@ -58,7 +58,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-
+<!-- comment added by venki -->
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
