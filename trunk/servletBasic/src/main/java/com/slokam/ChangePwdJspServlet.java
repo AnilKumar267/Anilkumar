@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ChangePwdJspServlet extends HttpServlet{
 	//THis is new function
 	//this is first comment
+	/*lokesh*/
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 	
