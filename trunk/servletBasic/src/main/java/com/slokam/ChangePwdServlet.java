@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class ChangePwdServlet extends HttpServlet{
 //checkking out project
+	//rockz
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 	
