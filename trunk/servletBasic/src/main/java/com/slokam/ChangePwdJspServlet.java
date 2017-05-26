@@ -20,8 +20,7 @@ public class ChangePwdJspServlet extends HttpServlet{
 		String m = arg0.getParameter("old");
 		String m1 = arg0.getParameter("new");
 		
-		//this for checkking out check
-		
+		//this comment is my updation
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/f11details","root","root");
