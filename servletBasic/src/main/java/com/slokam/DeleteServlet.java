@@ -23,7 +23,7 @@ public class DeleteServlet extends HttpServlet{
 		StudentHibDAO ao =new StudentHibDAO();
 		
 		ao.delete(i);
-		gghgvsshg
+		
 		arg0.setAttribute("message", "delete success");
 		arg0.getRequestDispatcher("WEB-INF/input.jsp").forward(arg0, arg1);
 		
