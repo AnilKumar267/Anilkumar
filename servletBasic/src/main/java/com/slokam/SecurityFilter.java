@@ -17,13 +17,13 @@ public class SecurityFilter implements Filter{
 	private static List<String> preLoginpages = new ArrayList<String>();
 	static
 	{
-		preLoginpages.add("/student_database/login.ser");
-		preLoginpages.add("/student_database/signup.ser");
-		preLoginpages.add("/student_database/signpage.ser");
-		preLoginpages.add("/student_database/forgot.ser");
-		preLoginpages.add("/student_database/forgotjsp.ser");
-		preLoginpages.add("/student_database/changepwd.ser");
-		preLoginpages.add("/student_database/changepwdjsp.ser");
+		preLoginpages.add("/servletBasic/login.ser");
+		preLoginpages.add("/servletBasic/signup.ser");
+		preLoginpages.add("/servletBasic/signpage.ser");
+		preLoginpages.add("/servletBasic/forgot.ser");
+		preLoginpages.add("/servletBasic/forgotjsp.ser");
+		preLoginpages.add("/servletBasic/changepwd.ser");
+		preLoginpages.add("/servletBasic/changepwdjsp.ser");
 	}
 	public void destroy() {
 		
