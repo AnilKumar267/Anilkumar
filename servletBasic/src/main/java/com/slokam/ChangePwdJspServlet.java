@@ -39,7 +39,7 @@ public class ChangePwdJspServlet extends HttpServlet{
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+		//=====================
 		arg0.setAttribute("message", "u r pwd changing success");
 		arg0.getRequestDispatcher("Login.jsp").forward(arg0, arg1);
 	}
