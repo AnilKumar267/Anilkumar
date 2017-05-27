@@ -18,7 +18,7 @@ public class ChangePwdJspServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 	
-		String m = arg0.getParameter("old");
+		sdhString m = arg0.getParameter("old");
 		String m1 = arg0.getParameter("new");
 		
 
