@@ -21,7 +21,7 @@ public class ChangePwdJspServlet extends HttpServlet{
 		String m = arg0.getParameter("old");
 		String m1 = arg0.getParameter("new");
 		
-//i have added a comment
+//i have added a comm
 		//this for checkking out check
 		//this is karthik
 		
