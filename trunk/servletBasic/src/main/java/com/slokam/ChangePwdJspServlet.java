@@ -22,6 +22,7 @@ public class ChangePwdJspServlet extends HttpServlet{
 		String m1 = arg0.getParameter("new");
 		
 //i have added a co
+		//my comment is added for jenkins
 		//this for checkking out check
 		//this is karthik
 		
