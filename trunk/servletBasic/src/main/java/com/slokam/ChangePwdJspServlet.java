@@ -18,11 +18,11 @@ public class ChangePwdJspServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 	
-		String m = arg0.getParameter("old");
+        String m = arg0.getParameter("old");
 		String m1 = arg0.getParameter("new");
 		
 //i have added a co
-		//my comment is added for jenkins
+		//my comment is added for jenkins----
 		//this for checkking out check
 		//this is karthik
 		
