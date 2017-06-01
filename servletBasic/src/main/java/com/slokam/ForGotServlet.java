@@ -12,8 +12,8 @@ public class ForGotServlet extends HttpServlet{
 	
 	//Hi THis is bharath
 	@Override
-	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse arg1) throws ServletException, IOException {
 	
-		arg0.getRequestDispatcher("WEB-INF/Forgot.jsp").forward(arg0, arg1);
+		req.getRequestDispatcher("WEB-INF/Forgot.jsp").forward(req, arg1);
 	}
 }
